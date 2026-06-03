@@ -1,7 +1,7 @@
 # 5 métricas essenciais para gestão de atendimento ao cliente
 
 **Categoria:** Gestão
-**Autor:** Camila Rocha
+**Autor:** Adriano Israel
 **Data:** 21 de maio de 2026
 **Leitura:** 6 min
 

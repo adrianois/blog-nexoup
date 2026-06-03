@@ -92,6 +92,52 @@
     .nl-form button:hover{background:var(--navy-mid)}
     @media(max-width:860px){.featured-article{grid-template-columns:1fr}.cat-articles-grid{grid-template-columns:1fr 1fr}.cat-article-card.wide{grid-column:span 2}}
     @media(max-width:640px){.header-nav{display:none}.menu-toggle{display:flex}.cat-articles-grid{grid-template-columns:1fr}.cat-article-card.wide{flex-direction:column;grid-column:span 1}.cat-article-card.wide .card-visual{width:100%}.cat-cta{flex-direction:column;text-align:center}}
+
+    /* ── FOOTER AUTHOR ── */
+    .footer-inner { padding: 0; }
+    .footer-top {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      gap: 2rem; padding: 2.5rem 0 1.75rem; flex-wrap: wrap;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .footer-brand .footer-logo { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 400; color: var(--white); }
+    .footer-brand .footer-logo strong { color: var(--green); }
+    .footer-brand .footer-tagline { font-size: .78rem; color: rgba(255,255,255,.35); margin-top: .3rem; }
+    .footer-author { max-width: 380px; }
+    .author-chip { display: flex; align-items: center; gap: .75rem; margin-bottom: .65rem; }
+    .author-chip-avatar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--green) 0%, #0ea85a 100%);
+      color: var(--navy); font-size: .8rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-heading); flex-shrink: 0;
+    }
+    .author-chip-name { display: block; font-size: .9rem; font-weight: 500; color: var(--white); }
+    .author-chip-handle { display: block; font-size: .75rem; color: var(--green); margin-top: 1px; }
+    .author-chip-bio { font-size: .78rem; color: rgba(255,255,255,.45); line-height: 1.6; margin-bottom: .85rem; }
+    .author-chip-links { display: flex; gap: .6rem; flex-wrap: wrap; }
+    .social-btn {
+      display: inline-flex; align-items: center; gap: .4rem;
+      font-size: .78rem; font-weight: 500; padding: .4rem .85rem;
+      border-radius: 20px; text-decoration: none;
+      transition: opacity var(--transition), transform var(--transition);
+    }
+    .social-btn:hover { opacity: .85; transform: translateY(-1px); }
+    .social-btn.instagram { background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); color: #fff; }
+    .social-btn.email { background: rgba(255,255,255,.1); color: rgba(255,255,255,.75); border: 1px solid rgba(255,255,255,.12); }
+    .footer-bottom {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1.25rem 0; gap: 1rem; flex-wrap: wrap;
+    }
+    .footer-nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+    .footer-nav a { font-size: .78rem; color: rgba(255,255,255,.4); transition: color var(--transition); }
+    .footer-nav a:hover { color: var(--white); }
+    .footer-copy { font-size: .72rem; color: rgba(255,255,255,.2); }
+    @media (max-width: 640px) {
+      .footer-top { flex-direction: column; }
+      .footer-author { max-width: 100%; }
+      .footer-bottom { flex-direction: column; align-items: flex-start; }
+    }
   </style>
 </head>
 <body>
@@ -168,7 +214,7 @@
           <div>
             <div class="fa-meta">
               <div class="fa-avatar">RP</div>
-              <span class="fa-meta-text">Rafael Pereira · 8 min · 28 mai 2026</span>
+              <span class="fa-meta-text">Adriano Israel · 8 min · 28 mai 2026</span>
             </div>
             <span class="fa-read">Ler artigo →</span>
           </div>
@@ -221,7 +267,7 @@
           <h3>Como o Kanban revoluciona a fila de atendimento no WhatsApp</h3>
           <p>Visualize o fluxo de tickets, elimine gargalos e eleve a produtividade com quadros Kanban configuráveis por setor.</p>
           <div class="card-foot">
-            <span class="card-time">⏱ 8 min · Rafael Pereira</span>
+            <span class="card-time">⏱ 8 min · Adriano Israel</span>
             <span class="card-arrow">Ler →</span>
           </div>
         </a>
@@ -257,7 +303,7 @@
             <h3>WIP limits: por que limitar o trabalho em progresso muda tudo</h3>
             <p>Defina limites de trabalho em progresso por coluna e por operador para aumentar o foco, reduzir erros e expor gargalos de forma objetiva.</p>
             <div class="card-foot">
-              <span class="card-time">⏱ 4 min · Rafael Pereira</span>
+              <span class="card-time">⏱ 4 min · Adriano Israel</span>
               <span class="card-arrow">Ler →</span>
             </div>
           </div>
@@ -311,16 +357,44 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <div class="footer-logo">Nexo<strong>UP</strong></div>
-      <p class="footer-tagline">Conectando atendimentos inteligentes</p>
-      <nav class="footer-nav">
-        <a href="../index.html">Home</a>
-        <a href="../index.html#planos">Planos</a>
-        <a href="mailto:contato@nexoup.com.br">Contato</a>
-      </nav>
-      <p class="footer-copy">&copy; 2026 NexoUP. Todos os direitos reservados.</p>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">Nexo<strong>UP</strong></div>
+          <p class="footer-tagline">Conectando atendimentos inteligentes</p>
+        </div>
+        <div class="footer-author">
+          <div class="author-chip">
+            <div class="author-chip-avatar">AI</div>
+            <div>
+              <span class="author-chip-name">Adriano Israel</span>
+              <span class="author-chip-handle">@adrianoisrael7</span>
+            </div>
+          </div>
+          <p class="author-chip-bio">Fundador do NexoUP · Especialista em atendimento via WhatsApp · Compartilhando o que aprendi construindo o sistema.</p>
+          <div class="author-chip-links">
+            <a href="https://instagram.com/adrianoisrael7" target="_blank" rel="noopener" class="social-btn instagram">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              @adrianoisrael7
+            </a>
+            <a href="mailto:adriano.israel@live.com" class="social-btn email">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              adriano.israel@live.com
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#artigos">Blog</a>
+          <a href="../index.html#planos">Planos</a>
+          <a href="https://github.com/adrianois/blog-nexoup" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 NexoUP &middot; Adriano Israel &middot; Todos os direitos reservados.</p>
+      </div>
     </div>
   </footer>
+
 
   <div id="toast" style="position:fixed;bottom:1.5rem;right:1.5rem;background:var(--navy);color:#fff;font-size:.875rem;padding:.75rem 1.25rem;border-radius:var(--radius-md);border-left:3px solid var(--green);box-shadow:var(--shadow-md);z-index:999;opacity:0;transform:translateY(12px);transition:opacity .25s,transform .25s;pointer-events:none"></div>
 

@@ -1,7 +1,7 @@
 # Treinamento de operadores: da integração à alta performance
 
 **Categoria:** Boas práticas
-**Autor:** Juliana Matos
+**Autor:** Adriano Israel
 **Data:** 23 de abril de 2026
 **Leitura:** 9 min
 

@@ -1,7 +1,7 @@
 # Como o Kanban revoluciona a fila de atendimento no WhatsApp
 
 **Categoria:** Kanban
-**Autor:** Rafael Pereira
+**Autor:** Adriano Israel
 **Data:** 28 de maio de 2026
 **Leitura:** 8 min
 

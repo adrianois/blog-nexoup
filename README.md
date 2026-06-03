@@ -54,7 +54,7 @@ Este projeto é compatível com qualquer hosting de arquivos estáticos:
 
 1. Vá em **Settings → Pages** no repositório
 2. Em **Source**, selecione a branch `main` e pasta `/` (root)
-3. Salve — o site ficará disponível em `https://seu-usuario.github.io/nexoup-blog`
+3. Salve — o site ficará disponível em `https://adrianois.github.io/blog-nexoup`
 
 ### Vercel
 
@@ -90,7 +90,7 @@ const PRICES = {
 
 ### Links de Contratação (`index.html`)
 
-Substitua os `href="mailto:contato@nexoup.com.br?subject=..."` nos botões de plano pelo link do seu checkout ou formulário.
+Substitua os `href="mailto:adriano.israel@live.com?subject=..."` nos botões de plano pelo link do seu checkout ou formulário.
 
 ### Newsletter
 
@@ -126,4 +126,8 @@ O blog promove o **sistema NexoUP** — CRM de atendimento WhatsApp desenvolvido
 
 ## Licença
 
-© 2026 NexoUP. Todos os direitos reservados.
+© 2026 NexoUP — Adriano Israel. Todos os direitos reservados.
+
+**Contato:** adriano.israel@live.com
+**Instagram:** [@adrianoisrael7](https://instagram.com/adrianoisrael7)
+**GitHub Pages:** https://adrianois.github.io/blog-nexoup

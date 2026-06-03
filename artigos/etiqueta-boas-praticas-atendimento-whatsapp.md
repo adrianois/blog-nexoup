@@ -1,7 +1,7 @@
 # Etiqueta e boas práticas no atendimento via WhatsApp
 
 **Categoria:** Boas práticas
-**Autor:** Juliana Matos
+**Autor:** Adriano Israel
 **Data:** 14 de maio de 2026
 **Leitura:** 5 min
 

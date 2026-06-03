@@ -1,7 +1,7 @@
 # Setores, filas e roteamento inteligente no NexoUP
 
 **Categoria:** NexoUP
-**Autor:** Diego Almeida
+**Autor:** Adriano Israel
 **Data:** 7 de maio de 2026
 **Leitura:** 7 min
 

@@ -1,7 +1,7 @@
 # WIP limits: por que limitar o trabalho em progresso muda tudo
 
 **Categoria:** Kanban
-**Autor:** Rafael Pereira
+**Autor:** Adriano Israel
 **Data:** 30 de abril de 2026
 **Leitura:** 4 min
 

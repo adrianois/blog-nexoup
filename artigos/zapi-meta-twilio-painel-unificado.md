@@ -1,7 +1,7 @@
 # Z-API, Meta e Twilio unificados em um só painel
 
 **Categoria:** Gestão
-**Autor:** Diego Almeida
+**Autor:** Adriano Israel
 **Data:** 16 de abril de 2026
 **Leitura:** 6 min
 
